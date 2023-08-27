@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PageStyle.css">
+    <title>Landing Page</title>
+</head>
+<body>
+<div class="main">
+<section>
+  <div class="navbar">
+        <div class="logo">GATE</div>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">PRACTICE</a>
+        <a href="#">SERVICES</a>
+        <a href="#">CONTACT</a>
+        <div class="srch-cont">
+          <input class="srch-bar" type="text" placeholder="Search here">
+          <button class="srch-btn">Search</button>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="content">
+        <h1>Welcome to<br><span> GATE PREPARATION</span><br>Course</h1>
+        <p>Welcome to GATE Preparation Course, your trusted companion on the journey to success in the Graduate Aptitude Test in Engineering.
+             <br>Our expert-crafted courses offer comprehensive study materials, interactive learning experiences, and realistic practice, ensuring you're well-prepared for the exam
+            <br> With flexible subscription options and a supportive community, we're here to help you excel in GATE and unlock a promising engineering career.</p>
+    </div>
+</section>
+<section>
+    <div class="login-con">
+        <h2>Login</h2>
+        <input class="login-inp" type="text" placeholder="UserName">
+        <input class="login-inp" type="password" placeholder="password">
+        <p>new user  <a href="#">REGESTER</a></p>
+        <button class="login-btn">Login</button>
+    </div>
+</section>
+<section>
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>Welcome to GATE Preparation Course, your trusted partner in achieving excellence in the Graduate Aptitude Test in Engineering. Our mission is to empower aspiring engineers like you with the knowledge and skills needed to conquer the GATE exam and embark on a successful career journey.</p>
+        <p>At GATE Preparation Course, we pride ourselves on our team of experienced educators and industry experts who are dedicated to your success. Our comprehensive study materials, interactive learning resources, and realistic practice tests are designed to provide you with a competitive edge.</p>
+    </div>
+</section>
+<section>
+    <div class="subscription">
+        <h2>Subscribe to Our GATE Preparation Course</h2>
+        <p>Stay updated with the latest course materials and notifications. Subscribe now!</p>
+        <form id="subscription-form">
+            <div class="subscription-option">
+                <select class="subscription-duration" id="subscription-duration">
+                    <option value="">select duration</option>
+                    <option value="3">3 Months - ₹750</option>
+                    <option value="6">6 Months - ₹1200</option>
+                    <option value="12">1 Year - ₹2000</option>
+                </select>
+                <input class="subscribe-input" type="email" id="subscriber-email" placeholder="Enter your email">
+                <button class="subscribe-btn" type="button" onclick="processPayment()">Pay Now</button>
+            </div>
+        </form>
+    </div>
+<section>
+    <div class="footer">
+        <p>&copy; 2024 GATE IIT Bombay. All rights are reserved
+            <br>Follow us on <a href="#">facebook</a> || <a href="#">Instagram</a> ||  <a href="#">Twitter</a></p>
+    </div>
+</section>
+</div>
+</body>
+</html>
