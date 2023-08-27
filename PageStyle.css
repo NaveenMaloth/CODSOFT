@@ -5,7 +5,7 @@ body{
 }
 .main{
     width: 100%;
-    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.5)50%),url(s4k.jpg);
+    background:linear-gradient(to top,rgba(0,0,0,0.6)50%,rgba(0, 0, 0, 0.6)50%),url(s4k.jpg);
     height: 109vh;
     background-position: center;
     background-size: cover;
@@ -59,7 +59,7 @@ body{
 .content{
     padding: 5px;
     text-align: center;
-    color: rgb(255, 230, 0);
+    color: rgb(221, 255, 0);
     letter-spacing: 2px;
     margin-top: 0%;
     font-family: Arial;
